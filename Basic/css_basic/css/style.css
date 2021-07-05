@@ -1,0 +1,126 @@
+/* tell the brower how to show the web page  */
+
+.body {
+    /* color  */
+    background-color: cornflowerblue;
+    color: darkkhaki;
+
+    /* font  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+
+    /* margins */
+    /* margin : 5px 10px 5px 10px -- >> top, right bottom left */ 
+    /* margin : 5px 10px  up and buttom , left right*/
+
+    /* padding is same as the margin */
+
+}
+
+.container {
+    background-color:dimgray;
+    width: 80%;
+}
+
+/* https://www.happyhues.co/ for color  */
+.this_box_style_a {
+    background-color: azure;
+    color: brown;
+
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+
+    border: 5px black;
+    border-left: 5px red;
+    border-right: 5px blue;
+    border-top: 5px greenyellow;
+    
+    padding-top: 15px yellow;
+    padding-bottom: 15px purple;
+
+
+}
+
+.this_box_style_b {
+    /* we did not asig the back ground color  */
+    color: brown;
+    font-family : 'Times New Roman',Times,serif;
+    border: 5px dotted #cccccc;
+
+    /* absolution base on view not box  */
+    position: absolute;
+    top:30px;
+    left: 30px;
+}
+
+.list li{
+    background-color: indianred;
+    list-style-image: url(); /*  */
+}
+
+/* there is no . so we apply in tag  */
+button {
+    background-color: lavenderblush;
+    color: lightgray;
+    
+}
+
+button:hover {
+    background-color: red;
+
+}
+
+button:active {
+    background-color: yellow;
+}
+
+a {
+    text-decoration : none;
+    color: teal;
+}
+
+a:hover {
+    color: violet;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main-block {
+    float: left;
+    width :70%;
+    border: 2px solid;
+    box-sizing: border-box;
+
+}
+
+#side-bar {
+    float:right;
+    width:30%;
+    border: 2px solid;
+    box-sizing: border-box;
+
+}
+
+.list2 li:nth-child(even){
+    background-color: indianred;
+    list-style-image: url(); /*  */
+}
+
+
+/* position  */
+
+
